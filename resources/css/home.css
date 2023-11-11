@@ -1,0 +1,43 @@
+
+.scrollspy-example-collapsible {
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    .scrollspy-example {
+        position: relative;
+        height: 500px; /* Ajusta la altura según sea necesario */
+        overflow: auto;
+    }
+
+    section {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Estilos adicionales para las secciones anidadas */
+    #example-sub-A-collapsible {
+        margin-top: 10px;
+        padding: 15px;
+        background-color: #f2f2f2;
+    }
+}
